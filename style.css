@@ -12,7 +12,9 @@ button {
     border: solid;
     border-radius: 10px;
     font-weight: bold;
-
+}
+section{
+    margin: 0 60px;
 }
 
 /* Banner Section Start  */
@@ -39,15 +41,33 @@ nav div h2 {
     color: #4E47FF;
 }
 
-#welcome {
+#bannerphth {
     margin-top: 130px;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
 }
 
-#welcome p {
+#bannerphth p {
     margin-bottom: 20px;
 }
 
 /* Banner Section End */
+
+/* Article Section Add  */
+article{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    height: 328px;
+    align-items: center;
+    font-size: 25px;
+}
+#article-text p{
+font-size: 22px;
+}
+
+#article-text, img{
+  border-radius: 30px;
+}
+/* Article Section End  */
