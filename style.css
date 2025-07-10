@@ -1,11 +1,53 @@
-*{
-   font-family: "Raleway", sans-serif;
-   margin:none;
-   box-sizing: border-box;
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav{
+button {
+    padding: 10px 25px;
+    background-color: #4E47FF;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+/* Banner Section Start  */
+header {
+    background-image: url(Assets/Hero-bg.png);
+    height: 500px;
+}
+
+#banner {
+    margin: 0 60px;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    background-image: url(Assets/Hero-bg.png);
+    align-items: center;
+    padding-top: 30px;
 }
+
+nav div h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+#welcome {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#welcome p {
+    margin-bottom: 20px;
+}
+
+/* Banner Section End */
