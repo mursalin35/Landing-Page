@@ -13,7 +13,8 @@ button {
     border-radius: 10px;
     font-weight: bold;
 }
-section{
+
+section {
     margin: 0 60px;
 }
 
@@ -34,7 +35,8 @@ nav {
     padding-top: 30px;
 }
 
-nav div h2 {
+#banner nav div,
+h2 {
     font-family: "Inter", sans-serif;
     font-size: 35px;
     font-weight: bolder;
@@ -55,7 +57,7 @@ nav div h2 {
 /* Banner Section End */
 
 /* Article Section Add  */
-article{
+#fist-article {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
@@ -63,11 +65,63 @@ article{
     align-items: center;
     font-size: 25px;
 }
-#article-text p{
-font-size: 22px;
+
+#article-text p {
+    font-size: 22px;
 }
 
-#article-text, img{
-  border-radius: 30px;
+#article-text,
+img {
+    border-radius: 30px;
 }
+
 /* Article Section End  */
+
+/* Contain Over vew Start  */
+#overvew {
+    margin-top: 80px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px;
+    background-color: rgb(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+#vew-contain {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#vew-contain div,
+h1,
+p {
+    font-family: "Inter", sans-serif;
+}
+
+.vew-h1 {
+    font-size: 60px;
+    color: #4E47FF;
+}
+
+.vew-p {
+    font-size: small;
+}
+
+/* Contain Over vew End  */
+
+/* Review Section Start  */
+#review h2{
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.review-card{
+    width: 366px;
+    height: 243px;
+    background-color:aquamarine;
+}
+/* Review Section End  */
