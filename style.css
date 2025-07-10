@@ -1,0 +1,11 @@
+*{
+   font-family: "Raleway", sans-serif;
+   margin:none;
+   box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(Assets/Hero-bg.png);
+}
