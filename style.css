@@ -166,16 +166,66 @@ p {
 /* Review Section End  */
 
 /* About Contain Start */
-#about-contain{
+#about-contain {
     text-align: center;
     background-color: #e5eeef;
     border-radius: 18px;
     height: 660px;
     margin-top: 100px;
 }
-#about-contain h2{
+
+#about-contain h2 {
     font-size: 55px;
     color: black;
     padding-top: 40px;
 }
+
 /* About Contain End */
+
+/* Contuct Form Start  */
+#contuct h1 {
+    font-size: 100px;
+}
+
+#contuct {
+    margin-top: 80px;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#f-text label,
+input {
+    font-family: "Inter", sans-serif;
+}
+
+#f-text input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 80vh;
+    height: 60px;
+    border: solid 1.5px gainsboro;
+    border-radius: 10px;
+}
+
+#sub-button {
+    width: 80vh;
+    height: 55px;
+}
+
+textarea {
+    font-family: "Inter", sans-serif;
+    width: 80vh;
+    height: 130px;
+    border: solid 1.5px gainsboro;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+/* Contuct Form End */
