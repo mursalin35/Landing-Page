@@ -15,6 +15,15 @@ button {
     border: none;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    font-size: medium;
+    color: black;
+    background-color: #f9cc1a;
+    transform: scale(1.05);
 }
 
 section {
@@ -129,7 +138,7 @@ p {
     font-size: 20px;
     border-radius: 15px;
     padding: 10px 0 20px 25px;
-    border: solid 1px rgb(255, 166, 0, 0.3);
+    border: solid 1.5px rgb(255, 166, 0, 0.1);
     margin: 0 auto;
 }
 
@@ -261,6 +270,11 @@ footer a {
     font-size: 14px;
     text-decoration: none;
     margin-right: 20px;
+    font-weight: bold;
 }
 
+footer a:hover{
+    text-decoration: underline;
+    color: #4E47FF;
+}
 /* Footer Section End  */
