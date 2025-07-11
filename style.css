@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #F4F9FF; */
+}
+body{
+    background-color: #F4F9FF;
 }
 
 button {
@@ -121,6 +123,7 @@ p {
 }
 
 .review-card {
+    background-color: white;
     width: 100%;
     align-items: center;
     font-size: 20px;
@@ -168,7 +171,7 @@ p {
 /* About Contain Start */
 #about-contain {
     text-align: center;
-    background-color: #e5eeef;
+    background-color: white;
     border-radius: 18px;
     height: 660px;
     margin-top: 100px;
@@ -229,3 +232,35 @@ textarea {
 }
 
 /* Contuct Form End */
+
+/* Footer Section Start  */
+footer {
+    border-top: solid 2px rgb(128, 128, 128, 0.1);
+    padding: 70px;
+    background-color: white;
+}
+
+footer h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+footer p {
+    line-height: 24px;
+}
+
+footer,
+a {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Footer Section End  */
