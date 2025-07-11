@@ -33,6 +33,9 @@ section {
 /* Banner Section Start  */
 header {
     background-image: url(Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 500px;
 }
 
@@ -250,8 +253,9 @@ footer {
 }
 
 footer h1 {
-    font-size: 100px;
-    font-weight: bolder;
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 10px;
     color: #4E47FF;
 }
 
